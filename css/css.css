@@ -20,6 +20,18 @@ padding-bottom: 100px;
 width: 980px;
 }
 
+* {
+font-family: Verdana;
+margin: 0;
+padding: 0;
+}
+
+td {
+height: 21px;
+padding: 0 2px;
+}
+
+
 
 li {
     font-size: 11px;
