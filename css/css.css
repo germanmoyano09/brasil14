@@ -61,6 +61,13 @@ li {
 #grupom {
     width: 230px; height:480px; float: left;color: white; background: #17573d;text-align: center;border: 1px solid black;margin-left:10px; margin-top:10px;font-size: 11px;
 }
+
+#grupooctavos{
+    width: 230px; height:250px; float: left;color: white; background: #17573d;text-align: center;border: 1px solid black;margin-left:10px; margin-top:10px;font-size: 11px;
+}
+
+
+
 .grupom {
     color: #C2E213; font-size:18px;text-shadow: black 0.1em 0.2em 0.2em;
 }
