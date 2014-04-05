@@ -274,36 +274,33 @@
 					<br />
 					<div id="contenedorm_octavos">
 						<div id="paism">
-							<img src="http://lh5.googleusercontent.com/-C318rUE6W3U/Ul_vWNwto4I/AAAAAAAAAe8/B7Rx-Dj5B_Y/s87/brasil.png" width="40px" height="50px"  /> <br />
-							Brasil
-						</div>
-						
-						<div id="paism">
-							<img src="http://lh3.googleusercontent.com/-i6VRMg6IlX0/Ul_vXv3RT4I/AAAAAAAAAgA/lifZMtEUY-0/s73/espana.png" width="40px" height="50px"  /> <br />
-							España
-						</div>
-						
-						<div id="paism">
-							<img src="http://lh5.googleusercontent.com/-k4bq8HA-RNE/UoxTAXijEAI/AAAAAAAAAj8/RCyxoNfivL0/s84/mexico.png" width="40px" height="50px"  /> <br />
-							Mexico
-						</div>
-						
-						<div id="paism">
-							<img src="http://lh5.googleusercontent.com/-dolnTiZ8Nhw/Ul_vW1--EtI/AAAAAAAAAfQ/EFjCJO8xLNI/s71/colombia.png" width="40px" height="50px"  /> <br />
-							Colombia
+							<img src="http://lh3.googleusercontent.com/-_xG6wgeAbW8/Ul_vZTomlmI/AAAAAAAAAg4/FVjhPBs-62k/s63/suiza.png" width="40px" height="50px"  /> <br />
+							Suiza
 						</div>
 						<div id="paism">
-							<img src="http://lh5.googleusercontent.com/-zXSS3VmMfQY/Ul_vXz_GiHI/AAAAAAAAAf0/H994KvZC1J4/s90/holanda.png" width="40px" height="50px"  /> <br />
-							Holanda
+							<img src="http://lh6.googleusercontent.com/-9MsUAlqFSv0/UovZhPaqkbI/AAAAAAAAAjs/pTz_w5QTUZE/s76/francia.png" width="40px" height="50px"  /> <br />
+							Francia
 						</div>
 						<div id="paism">
-							<img src="http://lh6.googleusercontent.com/-JbJ_HhOWm2w/UofWhsjssRI/AAAAAAAAAiE/g7cZtY1FYnY/s86/costademarfil.png" width="40px" height="50px"  /> <br />
-							Costa de Marfil
+							<img src="http://lh3.googleusercontent.com/-arxPZXZ2L7A/Ul_vVBs7hbI/AAAAAAAAAeo/3gRnwOVIZ94/s93/argentina.png" width="40px" height="50px"  /> <br />
+							Argentina
 						</div>
 						<div id="paism">
-							<img src="http://lh5.googleusercontent.com/-mHmcDpJm5gI/Ul_vYjHvg-I/AAAAAAAAAgU/Xh8HWRUvOPQ/s81/italia.png" width="40px" height="50px"  /> <br />
-							Italia
+							<img src="http://lh6.googleusercontent.com/-3rYntFMua_c/Uoek8IYe1YI/AAAAAAAADYE/BzedaaeCXy8/s72/nigeria.png" width="40px" height="50px"  /> <br />
+							Nigeria
 						</div>
+						<div id="paism">
+							<img src="http://lh3.googleusercontent.com/-jIsJddX0U5A/Ul_vVAODsDI/AAAAAAAAAes/ACOMLDn54iY/s82/alemania.png" width="40px" height="50px"  /> <br />
+							Alemania
+						</div>
+						<div id="paism">
+							<img src="http://lh3.googleusercontent.com/-1GJ3Yuzssa8/UovWx2dkPuI/AAAAAAAAAjg/6mu8IajC7Fo/s87/portugal.png" width="40px" height="50px"  /> <br />
+							Portugal
+						</div>
+						<div id="paism">
+							<img src="http://lh6.googleusercontent.com/-8nsklMCLi5E/Ul_vZbVFZVI/AAAAAAAAAgs/VBmcOWY3AhM/s94/rusia.png" width="40px" height="50px"  /> <br />
+							Rusia
+						</div>			
 					</div>
 					
 					<!-- ################# GRUPO DE LA IZQUIERDA ################# -->
@@ -483,33 +480,36 @@
 					
 					<div id="contenedorm_octavos">
 						<div id="paism">
-							<img src="http://lh3.googleusercontent.com/-_xG6wgeAbW8/Ul_vZTomlmI/AAAAAAAAAg4/FVjhPBs-62k/s63/suiza.png" width="40px" height="50px"  /> <br />
-							Suiza
+							<img src="http://lh5.googleusercontent.com/-C318rUE6W3U/Ul_vWNwto4I/AAAAAAAAAe8/B7Rx-Dj5B_Y/s87/brasil.png" width="40px" height="50px"  /> <br />
+							Brasil
+						</div>
+						
+						<div id="paism">
+							<img src="http://lh3.googleusercontent.com/-i6VRMg6IlX0/Ul_vXv3RT4I/AAAAAAAAAgA/lifZMtEUY-0/s73/espana.png" width="40px" height="50px"  /> <br />
+							España
+						</div>
+						
+						<div id="paism">
+							<img src="http://lh5.googleusercontent.com/-k4bq8HA-RNE/UoxTAXijEAI/AAAAAAAAAj8/RCyxoNfivL0/s84/mexico.png" width="40px" height="50px"  /> <br />
+							Mexico
+						</div>
+						
+						<div id="paism">
+							<img src="http://lh5.googleusercontent.com/-dolnTiZ8Nhw/Ul_vW1--EtI/AAAAAAAAAfQ/EFjCJO8xLNI/s71/colombia.png" width="40px" height="50px"  /> <br />
+							Colombia
 						</div>
 						<div id="paism">
-							<img src="http://lh6.googleusercontent.com/-9MsUAlqFSv0/UovZhPaqkbI/AAAAAAAAAjs/pTz_w5QTUZE/s76/francia.png" width="40px" height="50px"  /> <br />
-							Francia
+							<img src="http://lh5.googleusercontent.com/-zXSS3VmMfQY/Ul_vXz_GiHI/AAAAAAAAAf0/H994KvZC1J4/s90/holanda.png" width="40px" height="50px"  /> <br />
+							Holanda
 						</div>
 						<div id="paism">
-							<img src="http://lh3.googleusercontent.com/-arxPZXZ2L7A/Ul_vVBs7hbI/AAAAAAAAAeo/3gRnwOVIZ94/s93/argentina.png" width="40px" height="50px"  /> <br />
-							Argentina
+							<img src="http://lh6.googleusercontent.com/-JbJ_HhOWm2w/UofWhsjssRI/AAAAAAAAAiE/g7cZtY1FYnY/s86/costademarfil.png" width="40px" height="50px"  /> <br />
+							Costa de Marfil
 						</div>
 						<div id="paism">
-							<img src="http://lh6.googleusercontent.com/-3rYntFMua_c/Uoek8IYe1YI/AAAAAAAADYE/BzedaaeCXy8/s72/nigeria.png" width="40px" height="50px"  /> <br />
-							Nigeria
-						</div>
-						<div id="paism">
-							<img src="http://lh3.googleusercontent.com/-jIsJddX0U5A/Ul_vVAODsDI/AAAAAAAAAes/ACOMLDn54iY/s82/alemania.png" width="40px" height="50px"  /> <br />
-							Alemania
-						</div>
-						<div id="paism">
-							<img src="http://lh3.googleusercontent.com/-1GJ3Yuzssa8/UovWx2dkPuI/AAAAAAAAAjg/6mu8IajC7Fo/s87/portugal.png" width="40px" height="50px"  /> <br />
-							Portugal
-						</div>
-						<div id="paism">
-							<img src="http://lh6.googleusercontent.com/-8nsklMCLi5E/Ul_vZbVFZVI/AAAAAAAAAgs/VBmcOWY3AhM/s94/rusia.png" width="40px" height="50px"  /> <br />
-							Rusia
-						</div>						
+							<img src="http://lh5.googleusercontent.com/-mHmcDpJm5gI/Ul_vYjHvg-I/AAAAAAAAAgU/Xh8HWRUvOPQ/s81/italia.png" width="40px" height="50px"  /> <br />
+							Italia
+						</div>			
 					</div>		
 				</div>	
 				<div id="botones">
