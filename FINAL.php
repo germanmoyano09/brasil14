@@ -12,19 +12,24 @@
 	</head>
 	<body> 
 	<div align="center" style="width: 980px; margin: auto;margin-top:10px;margin-bottom: 10px">
-		<!-- FASE DE GRUPOS -->
-		<?php
-			include("grupos.php"); 
-		?>
 		
-		<!-- ACA EMPIEZO EL FORMULARIO -->
-		<form name="formularioOctavos" action="cuartosdefinal.php" method="post">
-			<!-- OCTAVOS DE FINAL -->
-			<?php
-				include("octavos.php"); 
-			?>
-		</form>	
-		<!-- ACA TERMINO EL FORMULARIO-->
+		<!-- EMPIEZO CUARTOS DE FINAL -->
+		<?php 
+			if($_POST['cuartospartido1'] == '1a')
+				$ganadorpartido1= $_POST['semis1a'];
+			else
+				$ganadorpartido1= $_POST['semis1b'];
+			
+			if($_POST['cuartospartido2'] == '1a')
+				$ganadorpartido2= $_POST['semis2a'];
+			else
+				$ganadorpartido2= $_POST['semis2b'];
+				
+				echo $ganadorpartido1."<br>";
+				echo $ganadorpartido2."<br>";
+		?>
+	
 	</div>
 	</body>
-</html>
+</html>	
+		

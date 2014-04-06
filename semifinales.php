@@ -12,60 +12,39 @@
 	</head>
 	<body> 
 	<div align="center" style="width: 980px; margin: auto;margin-top:10px;margin-bottom: 10px">
-	
+		
 		<!-- EMPIEZO CUARTOS DE FINAL -->
 		<?php 
-			if($_POST['octavospartido1'] == '1a')
-				$ganadorpartido1= $_POST['1grupoa'];
+			if($_POST['cuartospartido1'] == '1a')
+				$ganadorpartido1= $_POST['semis1a'];
 			else
-				$ganadorpartido1= $_POST['2grupob'];
+				$ganadorpartido1= $_POST['semis1b'];
 			
-			if($_POST['octavospartido2'] == '1a')
-				$ganadorpartido2= $_POST['1grupoc'];
+			if($_POST['cuartospartido2'] == '1a')
+				$ganadorpartido2= $_POST['semis2a'];
 			else
-				$ganadorpartido2= $_POST['2grupod'];
+				$ganadorpartido2= $_POST['semis2b'];
 			
-			if($_POST['octavospartido3'] == '1a')
-				$ganadorpartido3= $_POST['1grupoe'];
+			if($_POST['cuartospartido3'] == '1a')
+				$ganadorpartido3= $_POST['semis3a'];
 			else
-				$ganadorpartido3= $_POST['2grupof'];
+				$ganadorpartido3= $_POST['semis3b'];
 
-			if($_POST['octavospartido4'] == '1a')
-				$ganadorpartido4= $_POST['1grupog'];
+			if($_POST['cuartospartido4'] == '1a')
+				$ganadorpartido4= $_POST['semis4a'];
 			else
-				$ganadorpartido4= $_POST['2grupoh'];
-			
-			//partidos del lado derecho
-			if($_POST['octavospartido5'] == '1a')
-				$ganadorpartido5= $_POST['1grupob'];
-			else
-				$ganadorpartido5= $_POST['2grupoa'];
-			
-			if($_POST['octavospartido6'] == '1a')
-				$ganadorpartido6= $_POST['1grupod'];
-			else
-				$ganadorpartido6= $_POST['2grupoc'];
-			
-			if($_POST['octavospartido7'] == '1a')
-				$ganadorpartido7= $_POST['1grupof'];
-			else
-				$ganadorpartido7= $_POST['2grupoe'];
-			
-			if($_POST['octavospartido8'] == '1a')
-				$ganadorpartido8= $_POST['1grupoh'];
-			else
-				$ganadorpartido8= $_POST['2grupog'];
-		?>
-		<div id="contenido">
+				$ganadorpartido4= $_POST['semis4b'];
+		?>		
+	<div id="contenido">
 			<div id="contenido">
 				<div id="infoequipo">
 					CUARTO DE FINAL<br />
 					*Horarios de Argentina<br />
 				</div>
 			
-				<form name="formularioCuartos" action="semifinales.php" method="post">
+				<form name="formularioSemis" action="FINAL.php" method="post">
 					<div id="grupocuartos">
-						<span class="grupom">CUARTOS DE FINAL</span>
+						<span class="grupom">SEMIFINALES</span>
 						<br />
 						<div id="contenedorm_octavos">
 							<div id="paism">
@@ -105,7 +84,7 @@
 							<!-- ################# PARTIDO 1 ################# -->
 							<tr>
 								<td colspan="4">
-									<div id="titulom"> Viernes 04 Julio 17:00 hs Fortaleza</div>
+									<div id="titulom"> Martes 08 Julio 17:00 hs Belo Horizonte</div>
 								</td>
 							</tr>
 							<tr>
@@ -135,44 +114,6 @@
 								</td>
 							</tr> 
 							
-							<tr colspan="4">
-								<td>
-									<br />
-								</td>
-							</tr>
-							
-							<!-- ################# PARTIDO 2 ################# -->
-							<tr>
-								<td colspan="4">
-									<div id="titulom"> Sabado 05 Julio 17:00 hs Bahía</div>
-								</td>
-							</tr>
-							<tr>
-								<td> </td>
-								<td> Ganador </td>
-								<td>  </td>
-							</tr>	
-							<tr>
-								<td style="width: 45%">
-									<input type="hidden" name="semis2a" value="<?php echo $ganadorpartido3;?>"> 
-									<?php
-										echo $ganadorpartido3;
-									?>
-								</td>
-								
-								<td>
-									<input type="radio" name="cuartospartido2" value="1a" required> 
-									<input type="radio" name="cuartospartido2" value="2b"> 
-									<!-- <td style="width: 5%;background: white"></td> -->
-								</td>
-								
-								<td style="width: 45%">
-									<input type="hidden" name="semis2b" value="<?php echo $ganadorpartido4;?>"> 
-									<?php
-										echo $ganadorpartido4;
-									?>
-								</td>
-							</tr> 
 							
 							<tr colspan="4">
 								<td>
@@ -249,10 +190,10 @@
 						
 						<!-- ################# GRUPO DE LA DERECHA ################# -->
 						<table width="100%">
-							<!-- ################# PARTIDO 3 ################# -->
+							<!-- ################# PARTIDO 2 ################# -->
 							<tr>
 								<td colspan="4">
-									<div id="titulom"> Viernes 04 Julio 13:00 hs Río de Janeiro</div>
+									<div id="titulom"> Miercoles 09 Julio 17:00 hs Sao Paulo</div>
 								</td>
 							</tr>
 							<tr>
@@ -262,22 +203,22 @@
 							</tr>	
 							<tr>
 								<td style="width: 45%">
-									<input type="hidden" name="semis3a" value="<?php echo $ganadorpartido5;?>"> 
+									<input type="hidden" name="semis2a" value="<?php echo $ganadorpartido3;?>"> 
 									<?php
-										echo $ganadorpartido5;
+										echo $ganadorpartido3;
 									?>
 								</td>
 								
 								<td>
-									<input type="radio" name="cuartospartido3" value="1a" required> 
-									<input type="radio" name="cuartospartido3" value="2b"> 
+									<input type="radio" name="cuartospartido2" value="1a" required> 
+									<input type="radio" name="cuartospartido2" value="2b"> 
 									<!-- <td style="width: 5%;background: white"></td> -->
 								</td>
 								
 								<td style="width: 45%">
-									<input type="hidden" name="semis3b" value="<?php echo $ganadorpartido6;?>"> 
+									<input type="hidden" name="semis2b" value="<?php echo $ganadorpartido4;?>"> 
 									<?php
-										echo $ganadorpartido6;
+										echo $ganadorpartido4;
 									?>
 								</td>
 							</tr> 
@@ -288,44 +229,7 @@
 								</td>
 							</tr>
 							
-							<!-- ################# PARTIDO 4 ################# -->
-							<tr>
-								<td colspan="4">
-									<div id="titulom"> Sabado 05 Julio 13:00 hs Brasilia</div>
-								</td>
-							</tr>
-							<tr>
-								<td> </td>
-								<td> Ganador </td>
-								<td>  </td>
-							</tr>	
-							<tr>
-								<td style="width: 45%">
-									<input type="hidden" name="semis4a" value="<?php echo $ganadorpartido7;?>"> 
-									<?php
-										echo $ganadorpartido7;
-									?>
-								</td>
-								
-								<td>
-									<input type="radio" name="cuartospartido4" value="1a" required> 
-									<input type="radio" name="cuartospartido4" value="2b"> 
-									<!-- <td style="width: 5%;background: white"></td> -->
-								</td>
-								
-								<td style="width: 45%">
-									<input type="hidden" name="semis4b" value="<?php echo $ganadorpartido8;?>"> 
-									<?php
-										echo $ganadorpartido8;
-									?>
-								</td>
-							</tr> 
 							
-							<tr colspan="4">
-								<td>
-									<br />
-								</td>
-							</tr>
 						</table>
 						
 						<div id="contenedorm_octavos">
